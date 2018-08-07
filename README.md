@@ -1,5 +1,5 @@
 # learnFrench
-This application is designed to teach English user how to learn and pronounce french words and phrases.
+This is an android application designed to teach English user how to learn and pronounce french words and phrases.
 Its equipped with Audios too to assist.
 
 ![bg](https://user-images.githubusercontent.com/12122059/43785221-c3fe506a-9a5d-11e8-9f59-63943eabfa60.JPG)
