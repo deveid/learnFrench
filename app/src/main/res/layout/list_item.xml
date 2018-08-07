@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Numbers"
+    android:orientation="horizontal"
+    android:id="@+id/list_rootview"
+    android:paddingLeft="16dp"
+    android:minHeight="70dp"
+    android:background="@color/bground">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:src="@drawable/apple1" />
+
+    <LinearLayout
+        android:id="@+id/textContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:minHeight="70dp"
+        android:layout_toRightOf="@id/image"
+        android:paddingLeft="16dp"
+        android:background="@color/cat1">
+
+        <TextView
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:id="@+id/listview1"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            tools:text="Un" />
+
+        <TextView
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:id="@+id/listview2"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            tools:text="One" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/play_ic"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

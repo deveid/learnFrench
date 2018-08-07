@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bground">
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number"
+        android:background="@color/cat1"
+
+        />
+
+    <Button
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Family"
+        android:layout_below="@id/no"
+        android:background="@color/Cat2"
+        android:onClick="openFamily"
+        />
+
+    <Button
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color"
+        android:layout_below="@id/family"
+        android:background="@color/cat3"
+        android:onClick="openColors"/>
+
+    <Button
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phrases"
+        android:background="@color/cat4"
+        android:layout_below="@id/color"
+        android:onClick="openPhrases"/>
+
+</RelativeLayout>
